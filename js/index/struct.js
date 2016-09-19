@@ -2,6 +2,13 @@ ALLEX_CONFIGURATION = (function (execlib) {
   'use strict';
   return {
     APP: {
+      resources: [{
+        name: 'AngularBootstrapper',
+        type: 'AngularBootstrapper',
+        options: {
+          angular_dependencies: []
+        }
+      }],
       environments: [{
         name: 'ticketselling',
         type: 'allexremote',
